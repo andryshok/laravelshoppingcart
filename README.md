@@ -2,37 +2,24 @@
 
 This is fork of [darryldecode/laravelshoppingcart](https://github.com/darryldecode/laravelshoppingcart), with the following enhancements:
 
-- Laravel 11 support
+- Laravel 13 support
 - Fix tests
 - Add GitHub workflow
 
-To install this repository simply run: `composer require ultrono/laravelshoppingcart-1`
+To install this repository simply run: `composer require "andryshok/laravelshoppingcart"`
 
 
-# Laravel 5 & 6, 8, 9 , 10, 11 Shopping Cart
-[![Latest Stable Version](https://poser.pugx.org/f9webltd/laravel-meta/v)](https://packagist.org/packages/ultrono/laravelshoppingcart-1)
-[![Build Status](https://travis-ci.org/darryldecode/laravelshoppingcart.svg?branch=master)](https://travis-ci.org/darryldecode/laravelshoppingcart)
-[![Total Downloads](https://poser.pugx.org/darryldecode/cart/d/total.svg)](https://packagist.org/packages/darryldecode/cart)
-[![License](https://poser.pugx.org/darryldecode/cart/license.svg)](https://packagist.org/packages/darryldecode/cart)
+# Laravel 13 Shopping Cart
 
 A Shopping Cart Implementation for Laravel Framework
 
 ## QUICK PARTIAL DEMO
 
-Demo: https://shoppingcart-demo.darrylfernandez.com/cart
-
-Git repo of the demo: https://github.com/darryldecode/laravelshoppingcart-demo
-
 ## INSTALLATION
 
 Install the package through [Composer](http://getcomposer.org/).
 
-For Laravel 5.1~:
-`composer require "darryldecode/cart:~2.0"`
-
-For Laravel 5.5, 5.6, or 5.7~:
-
-```composer require "darryldecode/cart:~4.0"``` or 
+Laravel 13:
 ```composer require "andryshok/laravelshoppingcart"```
 
 ## CONFIGURATION
@@ -55,20 +42,6 @@ Darryldecode\Cart\CartServiceProvider::class
 php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"
 ```
 
-## HOW TO USE
-
--   [Quick Usage](#usage-usage-example)
--   [Usage](#usage)
--   [Conditions](#conditions)
--   [Items](#items)
--   [Associating Models](#associating-models)
--   [Instances](#instances)
--   [Exceptions](#exceptions)
--   [Events](#events)
--   [Format Response](#format)
--   [Examples](#examples)
--   [Using Different Storage](#storage)
--   [License](#license)
 
 ## Quick Usage Example
 
